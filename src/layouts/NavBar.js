@@ -4,9 +4,10 @@ import {CgMenu} from 'react-icons/cg'
 
 const NavBarWrapper = styled.div`
     *{
-        margin:0;
-        padding:0;
+        /* margin:0;
+        padding:0; */
     }
+    padding:0 1em;
     display:flex;
     flex-direction:row;
     /* justify-content:space-between; */
@@ -21,7 +22,7 @@ const NavBarWrapper = styled.div`
         color:#FFFFFF;
         font-size:30px;
         letter-spacing:0.5px;
-        outline:2px solid green;
+        /* outline:2px solid green; */
 
         span {
             color: ${props=>props.theme.detail};

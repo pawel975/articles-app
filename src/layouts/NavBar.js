@@ -3,25 +3,22 @@ import styled from 'styled-components';
 import {CgMenu} from 'react-icons/cg'
 
 const NavBarWrapper = styled.div`
-    *{
-        /* margin:0;
-        padding:0; */
-    }
-    padding:0 1em;
     display:flex;
     flex-direction:row;
-    /* justify-content:space-between; */
+    justify-content:space-between;
     align-items:center;
     /* outline:2px solid green; */
     line-height:100%;
-    width:100vw;
+    width:100%;
     height:clamp(60px,12vh,80px);
     background-color: ${props=>props.theme.main};
 
     .logo{
+        font-family:"Passion One", sans-serif;
+        margin-left:0.5em;
+        padding:1em 0;
         color:#FFFFFF;
-        font-size:30px;
-        letter-spacing:0.5px;
+        font-size:32px;
         /* outline:2px solid green; */
 
         span {
@@ -35,8 +32,10 @@ const NavBarWrapper = styled.div`
     }
 
     .hamburger {
+        /* margin-right:1em; */
+        padding:1em;
         color:${props=>props.theme.text};
-        outline:2px solid black;
+        /* outline:2px solid black; */
         height:30px;
         width:30px;
     }
@@ -53,6 +52,7 @@ const NavBar = () => {
                 <div>Categories</div>
                 <div>Favourites</div>
             </div>
+            <CgMenu className="hamburger"/>
         </NavBarWrapper>
     )
 }

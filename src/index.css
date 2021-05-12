@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Roboto:wght@300;500&display=swap');
 
+
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
 }

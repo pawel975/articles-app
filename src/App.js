@@ -8,7 +8,11 @@ import Footer from './layouts/Footer';
 
 const AppWrapper = styled.div`
 
-width:100vw;
+/* *{
+  outline:1px solid red;
+} */
+
+width:100%;
 height:auto;
 `
 const LightTheme = {

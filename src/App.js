@@ -19,14 +19,16 @@ const LightTheme = {
   background: '#FFFFFF',
   main: "#355070",
   detail: "#eaac8b",
-  text:"#FFFFFF",
+  textLight:"#FFFFFF",
+  textDark:"#355070",
 }
 
 const DarkTheme = {
   background: '#FFFFFF',
   main: "#355070",
   detail: "#f4a261",
-  text:"#FFFFFF",
+  textLight:"#FFFFFF",
+  textDark:"#355070",
 }
 
 const themes = {

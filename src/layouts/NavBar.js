@@ -34,7 +34,7 @@ const NavBarWrapper = styled.div`
     .hamburger {
         /* margin-right:1em; */
         padding:1em;
-        color:${props=>props.theme.text};
+        color:${props=>props.theme.textLight};
         /* outline:2px solid black; */
         height:30px;
         width:30px;
